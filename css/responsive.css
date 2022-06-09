@@ -106,6 +106,7 @@
     }
     .header{
           background:linear-gradient(to bottom , #000000ab, #000000ab),url("../images/toolsbg.jpg") no-repeat top right;
+          background-size: cover;
 
     }
     .about-me-content{
