@@ -1,0 +1,61 @@
+
+.client-say-about-us>h1{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.client-main{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.client{
+    background: #212121;
+    width: 24%;
+    border-radius: 8px;
+    padding: 30px 20px 15px;
+    position: relative;
+    margin: 12px;
+}
+.client-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.client-inside>span{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    content: '';
+}
+.client-inside>p{
+    font-size: 14px;
+    color: #fff;
+    font-style: italic;
+    line-height: 150%;
+}
+.client-details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.client-details>img{
+    border-radius: 100%;
+    border: 2px solid #d1002c;
+}
+.client-details>span{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.client-details>span>p{
+    font-size: 12px;
+    font-style: italic;
+    color: #ffffffab;
+}
