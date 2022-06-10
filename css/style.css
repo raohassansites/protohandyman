@@ -617,6 +617,7 @@
 .contact-me-main {
   background: #f7f7f7;
   padding: 50px 0px 100px;
+  margin-bottom :100px;
 }
 
 .contact-me-main > h1 {
@@ -1177,5 +1178,107 @@
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+.contact-me-form-main{
+  display: flex;
+  flex-direction: column;
+
+}
+.contact-me-form-heading{
+  margin-bottom:50px;
+}
+.contact-me-form-heading>h1{
+  text-align: center;
+}
+.contact-form-main{
+  margin-bottom: 100px;
+  text-align: center;
+}
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact-input {
+  width: 100%;
+  position: relative;
+}
+
+.contact-input > input, .contact-input > textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  padding: 20px 75px;
+  color: #fff;
+  background: #000;
+  border-radius: 8px;
+}
+.contact-input-submit{
+  margin: 0 auto;
+}
+.contact-input-submit>input{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 75px;
+  color: #d1002c;
+  background: #000;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-input > .message {
+  height: 175px;
+  resize: none;
+}
+
+.contact-input > i {
+  font-size: 15px;
+  color: #d1002c;
+  position: absolute;
+  top: 21px;
+  left: 20px;
+}
+
+.contact-input > i:after {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 2px;
+  background:  #d1002c;
+  left: 32px;
+  top: -7px;
+}
+
+.contact-input > input::-webkit-input-placeholder, .contact-input > textarea::-webkit-input-placeholder {
+  color:  #d1002c;
+}
+
+.contact-input > input:-ms-input-placeholder, .contact-input > textarea:-ms-input-placeholder {
+  color:  #d1002c;
+}
+
+.contact-input > input::-ms-input-placeholder, .contact-input > textarea::-ms-input-placeholder {
+  color:  #d1002c;
+}
+
+.contact-input > input::placeholder, .contact-input > textarea::placeholder {
+  color:  #d1002c;
 }
 /*# sourceMappingURL=style.css.map */
