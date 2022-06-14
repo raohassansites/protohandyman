@@ -1145,12 +1145,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 10px;
+  padding: 0px 10px 0px;
+  width: 100%;
 }
-
+.logo>img{
+  width: 190px;
+}
+.intro > h1{
+  margin-bottom: 50px;
+}
 .intro>p {
   margin: 0 0 1.5rem;
-
+  color: #fff;
+    background: #000;
+    padding: 20px;
+  line-height: 170%;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.intro>p >span{
+  color: #d1002c;
 }
 .our-services{
   display: grid;
@@ -1179,9 +1193,20 @@
   color: #000;
   font-weight: bold;
 }
+.sec-main{
+  display: flex;
+  gap:50px;
+}
+.contact-me-form{
+  width: 100%
+}
+.contact-me-main{
+  width: 50%;
+}
 .contact-me-form-main{
   display: flex;
   flex-direction: column;
+  width: 100%;
 
 }
 .contact-me-form-heading{

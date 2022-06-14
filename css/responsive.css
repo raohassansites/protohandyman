@@ -53,11 +53,14 @@
     .menu-drp{
         padding-left: 25px;
     }
-
+     
     .header{
           background:linear-gradient(to bottom , #000000ab, #000000ab),url("../images/toolsbg.jpg") no-repeat top right;
           background-size: cover;
 
+    }
+    .banner-title > h1{
+        font-size: 21px;
     }
     .about-me-content{
         flex-direction: column;
@@ -98,11 +101,22 @@
         grid-template-columns: auto;
         padding: 0px 10px;
     }
+    .sec-main{
+        flex-wrap:wrap;
+    }
+    
+     .contact-me-form-main{
+        padding: 0px 10px;
+     }
 }
-}
+
 @media (min-width: 481px) and (max-width: 768px){
     .footer-content{
         width: 45%;
+    }
+
+    .banner-title > h1{
+        font-size: 21px;
     }
     .header{
           background:linear-gradient(to bottom , #000000ab, #000000ab),url("../images/toolsbg.jpg") no-repeat top right;
@@ -124,6 +138,12 @@
    .our-services{
         grid-template-columns: auto auto;
         padding: 0px 10px;
+    }
+     .contact-me-form-main{
+        padding: 0px 10px;
+     }
+    .sec-main{
+        flex-wrap:wrap;
     }
 }
 @media (min-width: 769px) and (max-width: 1140px){
